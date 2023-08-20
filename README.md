@@ -7,7 +7,7 @@ Overview: Build a model that predicts the disease a person has.
 - [Bruce Skaar](https://github.com/)
 - [Gagandeep Singh](https://github.com/gsingh510)
 - [Mwohania Taylor](https://github.com/nia12taylor)
-- [Niti Patel](https://github.com/)
+- [Niti Patel](https://github.com/niti2442)
 - [Skylar Khalachyan](https://github.com/SkylerKhalachyan)
 
 ## Acknowledgements
