@@ -77,8 +77,17 @@ def train_model():
     
     predictions = model.predict(X_test_scaled)
     
-    ## fill in rest of the code ^^ copy to the point of model is ready to execuute 
+    cm = confusion_matrix(y_test, predictions)
+
+    disease_labels = disease_df["Outcome Variable"].unique().tolist()
     
+    cm_df = pd.DataFrame(
+        cm, index=["Actual 0", "Actual 1"], columns=disease_labels)
+    
+    acc_score = accuracy_score(y_test, predictions)
+    
+    acc_score
+        
     return model 
 
 def recommendation(fever, cough, fatigue, cl, cb):
