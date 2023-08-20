@@ -8,7 +8,7 @@ Overview: Build a model that predicts the disease a person has.
 - [Gagandeep Singh](https://github.com/)
 - [Mwohania Taylor](https://github.com/nia12taylor)
 - [Niti Patel](https://github.com/)
-- [Skylar Khalachyan](https://github.com/)
+- [Skylar Khalachyan](https://github.com/SkylerKhalachyan)
 
 ## Acknowledgements
 Program: University of California Berkeley Data Analytics Bootcamp
@@ -32,13 +32,8 @@ In this project,  we develop a ML machine that can ingest new sample set data an
 
 Within resources folder:
 
-[Category.csv](Resources/campaign.csv)
+[Disease Dataset](Data/Diseases_Machine_Learning-gagan-webAPPInput.csv)
 
-[Subcategory.csv](Resources/subcategory.csv)
-
-[Campaign.csv](Resources/campaign.csv)
-
-[Contacts.csv](Resources/contacts.csv)
 
 ## Built With
 
