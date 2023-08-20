@@ -3,7 +3,7 @@
 Overview: Build a model that predicts the disease a person has.
 
 ## Analysis by
-- [Alex Storton](https://github.com/)
+- [Alex Storton](https://github.com/astorton)
 - [Bruce Skaar](https://github.com/)
 - [Gagandeep Singh](https://github.com/gsingh510)
 - [Mwohania Taylor](https://github.com/nia12taylor)
