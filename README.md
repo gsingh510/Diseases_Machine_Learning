@@ -44,21 +44,13 @@ Within resources folder:
 
 - Python
 - Jupyter Notebook
-- Plotly
-- SQL
+- Tableau
+- Google Collab
 
 # Project Outline
 
 ## Introduction
 The instructions for this project were separated into four subsections: Data Model Implementation, Data Model Optimization, GitHub Documentation, Group Presentation. 
-
-## Installation
-
-1. Clone the repository.
-2. Install required Python packages: 
-`pandas`
-`jupyter notebook`
-`SQL`
 
 ## Instructions
 
@@ -66,3 +58,10 @@ The instructions for this project were separated into four subsections: Data Mod
 2. Write client-side Python.
 3. Connect the app to the notebook.
 4. Deploy the app.
+   
+## Installation
+
+1. Clone the repository.
+2. Install required Python packages via the "requirements.txt" file before running the Webapp.py
+   [Requirements File Link](https://github.com/gsingh510/Diseases_Machine_Learning/blob/44f7832aef4e4b69a4c114b67fd2cd8a16fd4271/Project4Group3Final/requirements.txt)
+   
