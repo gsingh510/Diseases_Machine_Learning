@@ -1,5 +1,5 @@
-# Diseases_Machine_Learning
-# Overview
+# Diseases Machine Learning
+## Overview
 In this project,  we develop a ML machine that can ingest new sample set data and refine the predictions based on user inputted parameters. The output from the data collected would predict the likelihood that the user has a disease or not and reccomend they follow up with their medical provider. 
 
 ## Analysis by
