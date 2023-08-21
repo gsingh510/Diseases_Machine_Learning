@@ -34,6 +34,11 @@ Within resources folder:
 
 [Disease Dataset](Data/Diseases_Machine_Learning-gagan-webAPPInput.csv)
 
+## Overview of our data
+![alt text](https://github.com/gsingh510/Diseases_Machine_Learning/blob/d5bd1825ee3608a1423cece974a8e59f6ca8b21e/Data%20Images/Screen%20Shot%202023-08-21%20at%2010.27.17%20AM.png)
+
+## Top Diseaes amoung Females and Males from our data source 
+![alt text](https://github.com/gsingh510/Diseases_Machine_Learning/blob/d5bd1825ee3608a1423cece974a8e59f6ca8b21e/Data%20Images/Screen%20Shot%202023-08-21%20at%2010.27.29%20AM.png)
 
 ## Built With
 
