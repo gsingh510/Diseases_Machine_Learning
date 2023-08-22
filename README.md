@@ -1,5 +1,5 @@
-# Diseases_Machine_Learning
-# Overview
+# Diseases Machine Learning
+## Overview
 In this project,  we develop a ML machine that can ingest new sample set data and refine the predictions based on user inputted parameters. The output from the data collected would predict the likelihood that the user has a disease or not and reccomend they follow up with their medical provider. 
 
 ## Analysis by
@@ -34,11 +34,14 @@ The instructions for this project were separated into four subsections: Data Mod
 - Clean data in preparation of modeling
 - Display up to 75% accuracy for the model
 
-## Data Sources
+## Data Sources and Data Models
 
 Within resources folder:
 
-[Disease Dataset](Data/Diseases_Machine_Learning-gagan-webAPPInput.csv)
+[Disease Dataset](https://github.com/gsingh510/Diseases_Machine_Learning/tree/70cadf738cf96822ea967d40323ba2d4b62cde52/Project4Group3Final/Data)
+
+[Data Models](https://github.com/gsingh510/Diseases_Machine_Learning/tree/70cadf738cf96822ea967d40323ba2d4b62cde52/Models)
+
 
 ## Overview of our data
 ![alt text](https://github.com/gsingh510/Diseases_Machine_Learning/blob/d5bd1825ee3608a1423cece974a8e59f6ca8b21e/Data%20Images/Screen%20Shot%202023-08-21%20at%2010.27.17%20AM.png)
