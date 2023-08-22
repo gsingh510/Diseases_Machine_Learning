@@ -25,8 +25,11 @@ The instructions for this project were separated into four subsections: Data Mod
 ## Installation
 
 1. Clone the repository.
-2. Install required Python packages via the "requirements.txt" file before running the Webapp.py
+2. Open the [Project4Group3Final](https://github.com/gsingh510/Diseases_Machine_Learning/tree/44f7832aef4e4b69a4c114b67fd2cd8a16fd4271/Project4Group3Final) folder in VS code. 
+3. Please install the required Python packages via the "requirements.txt" file before running the Webapp.py
    [Requirements File Link](https://github.com/gsingh510/Diseases_Machine_Learning/blob/44f7832aef4e4b69a4c114b67fd2cd8a16fd4271/Project4Group3Final/requirements.txt)
+4. Once the Flask App server is online, take your Dash http enviorment and open in a new tab (preferably Google Chrome).
+5. Once opened you will be able to interact with the Dashboard and run the Machine Learning Model. 
 
 ## Features
 
