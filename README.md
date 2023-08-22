@@ -59,6 +59,81 @@ Within resources folder:
 - Tableau
 - Google Collab
 
+## Project Outline
+
+Introduction:
+
+-Predict patient disease based on their symptoms, blood pressure and cholesterol readings and demographics (age, gender)
+-Our proposed solution: Develop a web app that runs a ML model that ingests user input parameters and produces an output that predicts whether or not a person is likely to have a disease based on their current symptoms and demographics. If the results are positive, our model would suggest that a disease is likely and that they should follow up with their provider. 
+
+Data Model_Implementation:
+-- Four models selected; Logistic Regression (LR), Neural Network (NN), Random Forest (RF) and Decision Tree (DT)
+--Supervised learning models only
+--All use same data pre-processing code
+--Same target variable
+--Label encode all categorical data
+--“Age” was the only feature scaled for the modeling
+
+-Data Model_Optimization
+
+Logisitic Regression - 57.6%:
+
+Iteration 1- 2.3%
+-Features are one hot encoded
+-Disease is set as the target variable
+
+Iteration 2- 51%
+-The target variable is updated to the outcome variable
+-Features are label encoded
+-Disease is removed from the features
+
+Iteration 3- 57.6%
+-The age and fatigue features are removed
+
+Neural Network - 65.9%:
+
+Iteration 1- 2.1%
+-Features are one hot encoded
+-Disease is set as the target variable
+
+Iteration #2 (56.8%)
+-Epoch Count decreased
+-Only 2 hidden layers
+
+Iteration #3 (64.7%)
+-Set ReLU as activation parameter for all layers
+-Removed “Fatigue” Feature
+-Hidden layer count set to 4
+-Reduced neural nodes by half (decrementing by 50% for each)
+
+Iteration #3 (Final)
+Added learning rate parameter to compiler
+Increase epoch count by 10
+
+Random Forest - 79.5%
+-Only one iteration implemented
+-Beneficial for 
+data that appears to be overfitting
+-Works well with non-linear data
+-Used to help provide insights on the features themselves
+
+Decision Tree:
+
+
+Challenge & Barriers:
+-Label encoding vs One Hot Encoder 
+-Deciding which columns to drop
+-Linking up our app to our dashboard and getting it to run our prediction model 
+-Neural network model proved to be too complex for the relatively small data set
+
+Future Opportunities:
+
+-Having a significantly larger dataset. 
+-Solve TensorFlow issues in running our Webapp. 
+-Push the model(s) to 90% accuracy threshold
+-Integrate Tableau visualizations into the web app
+-Integrate a web scraper to pull local doctors that specialize in the diseases based on user entered zip code and display summary info (contact, ratings, etc) 
+
 
 
 ## Acknowledgements
