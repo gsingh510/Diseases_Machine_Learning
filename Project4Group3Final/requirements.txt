@@ -4,5 +4,5 @@ joblib
 keras
 numpy
 pandas
-scikit_learn
+scikit_learn==1.2.2
 tensorflow
