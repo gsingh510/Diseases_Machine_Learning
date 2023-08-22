@@ -67,12 +67,12 @@ Introduction:
 -Our proposed solution: Develop a web app that runs a ML model that ingests user input parameters and produces an output that predicts whether or not a person is likely to have a disease based on their current symptoms and demographics. If the results are positive, our model would suggest that a disease is likely and that they should follow up with their provider. 
 
 Data Model_Implementation:
--- Four models selected; Logistic Regression (LR), Neural Network (NN), Random Forest (RF) and Decision Tree (DT)
---Supervised learning models only
---All use same data pre-processing code
---Same target variable
---Label encode all categorical data
---“Age” was the only feature scaled for the modeling
+-Four models selected; Logistic Regression (LR), Neural Network (NN), Random Forest (RF) and Decision Tree (DT)
+-Supervised learning models only
+-All use same data pre-processing code
+-Same target variable
+-Label encode all categorical data
+-“Age” was the only feature scaled for the modeling
 
 -Data Model_Optimization
 
